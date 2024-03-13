@@ -154,6 +154,7 @@
           <ul class="page-our-team">
             <li class="our-team-item">
               <img
+                srcset="./images/mark@2x.jpg 2x"
                 src="./images/mark.jpg"
                 alt="Portrait of Mark Guerrero "
                 width="264"
@@ -200,6 +201,7 @@
 
             <li class="our-team-item">
               <img
+                srcset="./images/tom@2x.jpg 2x"
                 src="./images/tom.jpg"
                 alt="Portrait of Tom Ford "
                 width="264"
@@ -245,6 +247,7 @@
 
             <li class="our-team-item">
               <img
+                srcset="./images/camila@2x.jpg 2x"
                 src="./images/camila.jpg"
                 alt="Portrait of Camila Garcia "
                 width="264"
@@ -291,6 +294,7 @@
 
             <li class="our-team-item">
               <img
+                srcset="./images/daniel@2x.jpg 2x"
                 src="./images/daniel.jpg"
                 alt="Portrait of Daniel Wilson "
                 width="264"
@@ -345,11 +349,31 @@
           <ul class="page-portfolio">
             <li class="our-portfolio-card">
               <div class="portfolio-div-image">
-                <img
-                  src="./images/banking.jpg"
-                  alt="Галерея сторінок застосунку Banking App"
-                  width="360"
-                />
+                <picture>
+                  <source
+                    srcset="./images/banking.jpg 1x, ./images/banking@2x.jpg 2x"
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/banking-tablet.jpg    1x,
+                      ./images/banking-tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/banking-mobile.jpg    1x,
+                      ./images/banking-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 320px)"
+                  />
+                  <img
+                    src="./images/banking.jpg"
+                    alt="Галерея сторінок застосунку Banking App"
+                    width="360"
+                  />
+                </picture>
                 <p class="our-portfolio-text-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -365,11 +389,34 @@
 
             <li class="our-portfolio-card">
               <div class="portfolio-div-image">
-                <img
-                  src="./images/cashless.jpg"
-                  alt="Сканування за допомогою телефону"
-                  width="360"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/cashless.jpg    1x,
+                      ./images/cashless@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/cashless-tablet.jpg    1x,
+                      ./images/cashless-tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/cashless-mobile.jpg    1x,
+                      ./images/cashless-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 320px)"
+                  />
+                  <img
+                    src="./images/cashless.jpg"
+                    alt="Сканування за допомогою телефону"
+                    width="360"
+                  />
+                </picture>
                 <p class="our-portfolio-text-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -384,11 +431,35 @@
 
             <li class="our-portfolio-card">
               <div class="portfolio-div-image">
-                <img
-                  src="./images/meditation.jpg"
-                  alt="Монітор ноутбуку поруч телефон"
-                  width="360"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/meditation.jpg    1x,
+                      ./images/meditation@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/meditation-tablet.jpg    1x,
+                      ./images/meditation-tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/meditation-mobile.jpg    1x,
+                      ./images/meditation-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 320px)"
+                  />
+                  <img
+                    src="./images/meditation.jpg"
+                    alt="Монітор ноутбуку поруч
+                  телефон"
+                    width="360"
+                  />
+                </picture>
                 <p class="our-portfolio-text-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -403,11 +474,31 @@
 
             <li class="our-portfolio-card">
               <div class="portfolio-div-image">
-                <img
-                  src="./images/taxi.jpg"
-                  alt="Фото місця водія за кермом поруч телефон"
-                  width="360"
-                />
+                <picture>
+                  <source
+                    srcset="./images/taxi.jpg 1x, ./images/taxi@2x.jpg 2x"
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/taxi-tablet.jpg    1x,
+                      ./images/taxi-tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/taxi-mobile.jpg    1x,
+                      ./images/taxi-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 320px)"
+                  />
+                  <img
+                    src="./images/taxi.jpg"
+                    alt="Фото місця водія за кермом поруч телефон"
+                    width="360"
+                  />
+                </picture>
                 <p class="our-portfolio-text-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -422,11 +513,31 @@
 
             <li class="our-portfolio-card">
               <div class="portfolio-div-image">
-                <img
-                  src="./images/screen.jpg"
-                  alt="Мобільний телефон яскрава картинка на екрані"
-                  width="360"
-                />
+                <picture>
+                  <source
+                    srcset="./images/screen.jpg 1x, ./images/screen@2x.jpg 2x"
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/screen-tablet.jpg    1x,
+                      ./images/screen-tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/screen-mobile.jpg    1x,
+                      ./images/screen-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 320px)"
+                  />
+                  <img
+                    src="./images/screen.jpg"
+                    alt="Мобільний телефон яскрава картинка на екрані"
+                    width="360"
+                  />
+                </picture>
                 <p class="our-portfolio-text-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -441,11 +552,31 @@
 
             <li class="our-portfolio-card">
               <div class="portfolio-div-image">
-                <img
-                  src="./images/online.jpg"
-                  alt="Фото жінки в помаранчевому светрі"
-                  width="360"
-                />
+                <picture>
+                  <source
+                    srcset="./images/online.jpg 1x, ./images/online@2x.jpg 2x"
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/online-tablet.jpg    1x,
+                      ./images/online-tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/online-mobile.jpg    1x,
+                      ./images/online-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 320px)"
+                  />
+                  <img
+                    src="./images/online.jpg"
+                    alt="Фото жінки в помаранчевому светрі"
+                    width="360"
+                  />
+                </picture>
                 <p class="our-portfolio-text-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App

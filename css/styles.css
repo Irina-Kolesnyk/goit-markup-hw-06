@@ -142,7 +142,11 @@ margin-left: auto;
 margin-right: auto;
 }
 
-
+@media only screen and (min-resolution: 192dpi) {
+.hero-section {
+background-image: url('../images/office @2x.jpg');
+}
+}
 
 .hero-section-title {
 font-weight:700;
